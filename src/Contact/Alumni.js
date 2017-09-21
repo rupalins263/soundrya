@@ -25,7 +25,7 @@ export default class Alumni extends Component{
                 })
                 .catch(function (error) {
                    alert("Retry again")
-                });
+                });git 
            
     }
     render(){
