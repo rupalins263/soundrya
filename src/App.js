@@ -13,6 +13,11 @@ import Mission from './About/Mission';
 import News from './About/News';
 import Curriculum from './Academics/Curriculum';
 import Assesment from './Academics/Assesment';
+import Methodology from './Academics/Methedology';
+import Activities from './Academics/Activities';
+import TeachingStaff from './Academics/TeachingStaff';
+
+import Gallery from './Gallery/Gallery';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +38,11 @@ class App extends Component {
                   <Route exact path="/News" component={News}/>
                   <Route exact path="/Curriculum" component={Curriculum}/>
                   <Route exact path="/Assesment" component={Assesment}/>
+                      <Route exact path="/Methedology" component={Methodology}/>
+                      <Route exact path="/TeachingStaff" component={TeachingStaff}/>
+                        <Route exact path="/Gallery" component={Gallery}/>
+                          <Route exact path="/Activities" component={Activities}/>
+                      
        </Switch>
        <Footer/>
       </div>

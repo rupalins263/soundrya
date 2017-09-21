@@ -48,10 +48,10 @@ export default class Mission extends Component{
                         <h3 className="title">Related Links</h3>
                         <ul className="job-list custom-list-style">
                                 <li><i className="fa fa-caret-right"></i><a href="#">About Us</a></li>
-                                <li><i className="fa fa-caret-right"></i><a href="about-management.mako">Management </a></li>
-                                <li><i className="fa fa-caret-right"></i><a href="about.mako#mission">Mission</a></li>
-                                <li><i className="fa fa-caret-right"></i><a href="about.mako#vision">Vision</a></li>
-                        </ul>
+                                      <li><i className="fa fa-caret-right"></i><a href="/About">About</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Mission">Mission </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Mision">Vision</a></li>
+                                        </ul>
                     </section>
 
                     <section className="widget">

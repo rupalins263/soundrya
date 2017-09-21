@@ -73,9 +73,9 @@ export default class Assessment extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="curriculum.mako">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="methodology.mako">Methodology</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="teaching-staff.mako">Teaching Staff</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Curriculum">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Methedology">Methodology</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/TeachingStaff">Teaching Staff</a></li>
                                 </ul>                                
                             </section>                           
                             <section className="widget">

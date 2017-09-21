@@ -72,9 +72,9 @@ class Nav extends Component{
           <ul className="dropdown-menu navli-a">
             <li><a href="/Curriculum">CURRICULUM</a></li>
             <li><a href="/Assesment">ASSESSMENT PLAN </a></li>
-            <li><a href="#">METHEDOLOGY</a></li>
-            <li><a href="#">ACTIVITIES</a></li>
-             <li><a href="#">TEACHING STAFF</a></li>
+            <li><a href="/Methedology">METHEDOLOGY</a></li>
+            <li><a href="/Activities">ACTIVITIES</a></li>
+             <li><a href="/TeachingStaff">TEACHING STAFF</a></li>
           </ul>
         </li>
           <li className="dropdown">
@@ -87,15 +87,7 @@ class Nav extends Component{
           </ul>
         </li>
         <li><a href="/Media">MEDIA</a></li>
-         <li className="dropdown">
-          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY<span className="caret"></span></a>
-          <ul className="dropdown-menu navli-a">
-            <li><a href="#">NURSERY</a></li>
-            <li><a href="#">PRIMARY SCHOOL </a></li>
-            <li><a href="#">HIGH SCHOOL</a></li>
-           
-          </ul>
-        </li>
+        <li><a href="/Gallery">Gallery</a></li>
          <li><a href="/Alumni">ALUMINI</a></li>
          <li><a href="/Carrier">CARRIER</a></li>
          <li><a href="/ContactUs">CONTACT US</a></li>

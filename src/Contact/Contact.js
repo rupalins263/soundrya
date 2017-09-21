@@ -1,6 +1,31 @@
 import React,{Component} from 'react';
 import './Contact.css';
+import axios from 'axios';
 export default class ContactUs extends Component{
+
+    submit(event)
+    {
+        event.preventDefault();
+       var name= document.getElementById("name");
+        var phone= document.getElementById("phone");
+         var email= document.getElementById("email");
+
+         var message= document.getElementById("message");
+          axios.post('http://198.12.154.44:3333/School/ContactUs', {
+                "name":name.value,
+                "email":email.value,
+                "number":phone.value,
+                "message":message.value
+            })
+                .then(function (response) {
+                    alert("Successfully submitted")
+                    window.location=window.location
+                })
+                .catch(function (error) {
+                   alert("Retry again")
+                });
+           
+    }
     render()
     {
         return(
@@ -24,25 +49,25 @@ export default class ContactUs extends Component{
                         
                         <p>We’d love to hear from you. Please fill in the form below and we will get in touch with you at the earliest.</p>
                         
-                        <form >
+                        <form  onSubmit={this.submit.bind(this)}>
                             <div className="form-group name">
                                 <label htmlFor="name">Name</label>
-                                <input id="name" type="text" className="form-control req_field" placeholder="Enter your name"/>
+                                <input id="name" type="text" className="form-control req_field" placeholder="Enter your name" required/>
                             </div>
                             <div className="form-group email">
                                 <label htmlFor="email">Email<span className="required">*</span></label>
-                                <input id="email" type="email" className="form-control req_field req_field_email" placeholder="Enter your email"/>
+                                <input id="email" type="email" className="form-control req_field req_field_email" placeholder="Enter your email" required/>
                             </div>
                             
                             <div className="form-group phone">
                                 <label htmlFor="phone">Phone</label>
-                                <input id="phone" type="tel" className="form-control" placeholder="Enter your contact number"/>
+                                <input id="phone" type="tel" className="form-control" placeholder="Enter your contact number" required/>
                             </div>
                             <div className="form-group message">
                                 <label htmlFor="message">Message<span className="required">*</span></label>
-                                <textarea id="message" className="form-control req_field" rows="4" placeholder="Enter your message here..."></textarea>
+                                <textarea id="message" className="form-control req_field" rows="4" placeholder="Enter your message here..." required></textarea>
                             </div>
-                            <button type="button" className="btn btn-theme">Send message</button>
+                            <button type="submit" className="btn btn-theme">Send message</button>
                         </form>       
                                 <article className="map-section">
                                         <h3 className="title">Our Location</h3>
@@ -55,8 +80,8 @@ export default class ContactUs extends Component{
                         <section className="widget has-divider">
                                 <h3 className="title">Downloads</h3>
                                 <p>For your benefit we have compiled in this section some of the key features you should know about Soundarya School.</p>
-                                <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=prospectus"><i className="fa fa-download"></i>Download Prospectus</a></p>
-                                <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=app_form"><i className="fa fa-download"></i>Download Application Form</a></p>
+                                <p><a className="btn btn-theme" href="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505984517/Soundarya-School-Prospectus_1_bffizy.pdf"><i className="fa fa-download"></i>Download Prospectus</a></p>
+                                <p><a className="btn btn-theme" href="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505984522/Soundarya-School-Application_reseyl.pdf"><i className="fa fa-download"></i>Download Application Form</a></p>
                         </section>
                         <section className="widget has-divider">
                             <h3 className="title">Postal Address</h3>

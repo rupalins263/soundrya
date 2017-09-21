@@ -11,10 +11,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>About</h3>
                                         <ul>
-                                            <li><a href="about.mako"><i className="fa fa-caret-right"></i>About School</a></li>
-                                            <li><a href="about-management.mako"><i className="fa fa-caret-right"></i>Management</a></li>
-                                            <li><a href="career.mako"><i className="fa fa-caret-right"></i>Careers</a></li>
-                                            <li><a href="admission.mako"><i className="fa fa-caret-right"></i>Admissions</a></li>
+                                            <li><a href="/"><i className="fa fa-caret-right"></i>About School</a></li>
+                                            <li><a href="/Management"><i className="fa fa-caret-right"></i>Management</a></li>
+                                            <li><a href="/Carrier"><i className="fa fa-caret-right"></i>Careers</a></li>
+                                            <li><a href="/Admission"><i className="fa fa-caret-right"></i>Admissions</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -22,10 +22,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>More Links</h3>
                                         <ul>
-                                            <li><a href="gallery.mako"><i className="fa fa-caret-right"></i>Gallery</a></li>
-                                            <li><a href="activities.mako"><i className="fa fa-caret-right"></i>Activities</a></li>
-                                            <li><a href="curriculum.mako"><i className="fa fa-caret-right"></i>curriculum</a></li>
-                                            <li><a href="assesment-plan.mako"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
+                                            <li><a href="/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
+                                            <li><a href="/Activities"><i className="fa fa-caret-right"></i>Activities</a></li>
+                                            <li><a href="/Curriculum"><i className="fa fa-caret-right"></i>curriculum</a></li>
+                                            <li><a href="/Assesment"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
                                             
                                         </ul>
                                     </div>
@@ -34,10 +34,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>&nbsp;</h3>
                                         <ul>
-                                            <li><a href="news-events.mako"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
-                                            <li><a href="teaching-staff.mako"><i className="fa fa-caret-right"></i>Teaching Staff</a></li>
-                                            <li><a href="media.mako"><i className="fa fa-caret-right"></i>Press Media</a></li>
-                                            <li><a href="privacy-policy.mako"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
+                                            <li><a href="/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
+                                            <li><a href="/TeachingStaff"><i className="fa fa-caret-right"></i>Teaching Staff</a></li>
+                                            <li><a href="/Media"><i className="fa fa-caret-right"></i>Press Media</a></li>
+                                            <li><a href="/"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
                                             
                                         </ul>
                                     </div>
@@ -63,7 +63,7 @@ export default class Footer extends Component{
                                 </div>   
                                 <div className="footer-col col-md-3 col-sm-3 contact">
                                     <div className="row text-right">
-                                        <img src="http://school.soundaryainstitutions.in/assets/images/lms-jas.jpg" style={{"max-width":"100%","max-height":"141px"}}/>
+                                        <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979470/lms-jas_pwafdo.jpg" style={{"max-width":"100%","max-height":"141px"}}/>
                                     </div>
                                        
                                  </div>

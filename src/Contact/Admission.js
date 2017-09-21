@@ -35,9 +35,9 @@ export default class Admission extends Component{
                             <section className="widget has-divider">
                             <h3 className="title">Downloads</h3>
                             <p>For your benefit we have compiled in this section some of the key features you should know about Soundarya School.</p>
-                            <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=prospectus"><i className="fa fa-download"></i>Download Prospectus</a></p>
-                            <p><a className="btn btn-theme" href="send_attachment.mako?attachment_type=app_form"><i className="fa fa-download"></i>Download Application Form</a></p>
-                                </section>                             
+                           <p><a className="btn btn-theme" href="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505984517/Soundarya-School-Prospectus_1_bffizy.pdf"><i className="fa fa-download"></i>Download Prospectus</a></p>
+                                <p><a className="btn btn-theme" href="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505984522/Soundarya-School-Application_reseyl.pdf"><i className="fa fa-download"></i>Download Application Form</a></p>
+                          </section>                             
                                  <section className="widget">
                                     <h3 className="title">Contact</h3>
                                     <p><b>Soundarya School</b><br/> Havanoor extension,<br/> Nagasandra post ,<br/> Bangalore-560073</p>

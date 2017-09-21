@@ -26,17 +26,17 @@ export default class Management extends Component{
                             <p><br/></p>
                             <div className="row">
                                 <div className="col-md-4">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/soundarya-manjappa-chairman.jpg" alt=""/>
+                                     <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/soundarya-manjappa-chairman_wiehap.jpg" alt=""/>
                                      <h6 className="mg-name desig"><strong>Soundarya P Manjappa</strong></h6>
                                      <h6 className="mg-name"><strong>Chairman</strong></h6> 
                                 </div>
                                 <div className="col-md-4">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/smt.sunitha-manjappa-md.jpg" alt=""/>
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/smt.sunitha-manjappa-md_xikumf.jpg" alt=""/>
                                      <h6 className="mg-name desig"><strong>Smt. Sunitha Manjappa</strong></h6>                                 
                                      <h6 className="mg-name"><strong>Managing Director</strong></h6>                                 
                                 </div>
                                 <div className="col-md-4">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/ceo.png" alt=""/>
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979473/ceo_ggzddm.png" alt=""/>
                                      <h6 className="mg-name desig"><strong>Keerthan Kumar</strong></h6>
                                      <h6 className="mg-name"><strong>C.E.O</strong></h6>
                                 </div>
@@ -46,7 +46,7 @@ export default class Management extends Component{
                             </div>                       
                             <div className="col-md-12" style={{"background":"#FCFCFC","padding":"10px 0 10px 10px","margin-top":"20px"}}>       
                                 <div className="col-md-6 row">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/Smt.Chinnamma Kaverappa.jpg" alt="" style={{width:"100%"}}/> 
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979472/Smt.Chinnamma_Kaverappa_kj5aey.jpg" alt="" style={{width:"100%"}}/> 
                                      <h6 className="mg-name"><strong><span className="desig">Mrs. Chinnamma Kaverappa</span> High School HM</strong></h6>
                                 </div>
                                 <div className="col-md-6" style={{"padding-right":"0"}}>
@@ -67,9 +67,9 @@ export default class Management extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="about.mako">About</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="about.mako#mission">Mission </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="about.mako#vision">Vision</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/About">About</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Mission">Mission </a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Mision">Vision</a></li>
                                 </ul>
                                 
                             </section>
@@ -88,7 +88,7 @@ export default class Management extends Component{
                             <div className="col-md-7" style={{"background":"#FCFCFC","padding":"10px 0 10px 10px","margin-top":"20px"}}>
     
                                 <div className="col-md-6 row">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/Smt. Prasannalakshmi(Primary HM).jpg" alt="Smt. Prasannalakshmi" style={{"width":"100%"}}/> 
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979472/Smt._Prasannalakshmi_Primary_HM_xl44b7.jpg" alt="Smt. Prasannalakshmi" style={{"width":"100%"}}/> 
                                      <h6 className="mg-name"><strong><span className="desig">Smt. Prasannalakshmi</span> - Primary HM</strong></h6>
                                 </div>
                                 <div className="col-md-6" style={{"padding-right":"0"}}>
@@ -107,7 +107,7 @@ export default class Management extends Component{
                             </div>
                             <div className="col-md-7" style={{"background":"#FCFCFC","padding":"10px 10px 0 10px","margin-top":"20px"}}>       
                                 <div className="col-md-6 row">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/Smt. Letha. J.Rai (Asst. HM Primary).jpg" alt="Smt. Letha. J.Rai" style={{"width":"100%"}}/> 
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979471/Smt._Letha._J.Rai_Asst._HM_Primary_xbsfmf.jpg" alt="Smt. Letha. J.Rai" style={{"width":"100%"}}/> 
                                      <h6 className="mg-name"><strong><span class="desig">Smt. Letha. J.Rai</span> - Asst. HM Primary</strong></h6>
                                 </div>
                                 <div class="col-md-6" style={{"padding-right":"0"}}>
@@ -132,7 +132,7 @@ export default class Management extends Component{
                             <div className="col-md-7" style={{"background":"#FCFCFC","padding":"10px 0 10px 10px","margin-top":"20px"}}>
        
                                 <div className="col-md-6 row">
-                                     <img src="http://school.soundaryainstitutions.in/assets/images/Smt. Queen Mary Singh(Nursary HM).jpg" alt="Smt. Queen Mary Singh" style={{"width":"100%"}}/> 
+                                     <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979472/Smt._Queen_Mary_Singh_Nursary_HM_c5mlhv.jpg" alt="Smt. Queen Mary Singh" style={{"width":"100%"}}/> 
                                      <h6 className="mg-name"><strong><span className="desig">Smt. Queen Mary Singh</span> - Nursery HM</strong></h6>
                                 </div>
                                 <div className="col-md-6" style={{"padding-right":"0"}}>

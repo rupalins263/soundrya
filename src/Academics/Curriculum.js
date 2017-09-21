@@ -22,7 +22,7 @@ export default class Curriculum extends Component{
                             
                            
                             <p style={{"text-align":"justify"}}>CCE Pattern of assessment has been followed according to which every aspect of child’s performance in the school will be assessed. Each Semester has two Formative Assessments and one Summative Assessment. Under Formative Assessment apart from academics, projects, assignments, life skills, attitudes, values and activities which include sports, cultural, literary and scientific skills are assessed and recorded. Under Summative Assessment performance of the student in the examination will be assessed </p>
-                            <img src="http://school.soundaryainstitutions.in/assets/images/Heads of Institution.jpg" alt="" style={{"width":"100%","height":"auto","border":"2px solid #1B68AB "}}/>
+                            <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979473/Heads_of_Institution_kgphzb.jpg" alt="" style={{"width":"100%","height":"auto","border":"2px solid #1B68AB "}}/>
                             
                            
                            
@@ -31,10 +31,10 @@ export default class Curriculum extends Component{
                                         <section className="widget has-divider">
                                             <h3 className="title">Related Links</h3>
                                             <ul className="job-list custom-list-style">
-                                                    <li><i className="fa fa-caret-right"></i><a href="assesment-plan.mako">Assesment Plan </a></li>
-                                                    <li><i className="fa fa-caret-right"></i><a href="methodology.mako">Methodology</a></li>
-                                                    <li><i className="fa fa-caret-right"></i><a href="teaching-staff.mako">Teaching Staff</a></li>
-                                            </ul>
+                                                   <li><i className="fa fa-caret-right"></i><a href="/Curriculum">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/Methedology">Methodology</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/TeachingStaff">Teaching Staff</a></li>
+                                     </ul>
                                             
                                         </section>
                             

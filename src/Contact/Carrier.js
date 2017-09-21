@@ -20,9 +20,9 @@ export default class Carrier extends Component{
                 <div className="container">
                     <div className="row page-row">
                         <div className="col-md-8 col-sm-7">
-                            <img src="http://school.soundaryainstitutions.in/assets/images/Recruitment.jpg" alt="career"/><br/><br/>
+                            <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979471/Recruitment_ngtnxw.jpg" alt="career"/><br/><br/>
             
-                            <img src="http://school.soundaryainstitutions.in/assets/images/career.jpg" alt="career"/>
+                            <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979470/career_uarx2r.jpg" alt="career"/>
                             
                          
                                             

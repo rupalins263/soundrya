@@ -1,8 +1,61 @@
 import React,{Component} from 'react';
 import './Home.css';
+import axios from 'axios';
 export default class Event extends Component{
+        constructor(){
+        super();
+        this.state={
+            events:[]
+        }
+    }
+    componentWillMount(){
+           axios.get(`http://198.12.154.44:3333/School/Events`)
+             .then((res)=>{
+                    console.log(res)
+                    this.setState({
+                        events:res.data.response,
+                       
+                    })
+             })
+    }
     render()
     {
+
+
+
+
+         let events="";
+        if(this.state.events.length>0){
+            events=this.state.events.map((item,index)=>{
+                if(index<2){
+                    var month=new Date(item.eventdate).toDateString().split(" ")[1];
+                     var day=new Date(item.eventdate).toDateString().split(" ")[2];
+                    return(
+                        <div className="event-item">
+                                        <p className="date-label">
+                                            <span className="month">{month}</span>
+                                            <span className="date-number">{day}</span>
+                                        </p>
+                                        <div className="details">
+                                            <h2 className="title">
+                                                <a href="">{item.eventname}</a>
+                                            </h2>
+                                            <p className="location"><i className="fa fa-map-marker"></i>Soundarya School</p>                            
+                                        </div>
+                                </div>
+              
+                                 )
+                          }
+                     
+                        else{
+                            return (<div></div>)
+
+                            }
+                
+             
+                           
+            })
+        }
         return(
  
       <div className="container cols-wrapper">
@@ -11,26 +64,14 @@ export default class Event extends Component{
             <section className="">
                 <h1 className="line">Events</h1>
                 <div className="section-content">
-                            <div className="event-item">
-                                <p className="date-label">
-                                    <span className="month">Apr</span>
-                                    <span className="date-number">01</span>
-                                </p>
-                                <div className="details">
-                                    <h2 className="title">
-                                        <a href="news-single.mako?news_id=1">Summer Camp 2017</a>
-                                    </h2>
-                                    <p className="time"><i className="fa fa-clock-o"></i>10:00am - 18:00pm</p>
-                                    <p className="location"><i className="fa fa-map-marker"></i>Soundarya School</p>                            
-                                </div>
-                            </div>
+                              {events}
                     <a className="read-more" href="#">All events<i className="fa fa-chevron-right"></i></a>
                 </div>
             </section>
         </div>
         <div className="col-md-5">
             <blockquote className="custom-quote" style={{"padding":"0 0 0 20px"}}>
-                    <img src="http://school.soundaryainstitutions.in/assets/images/chairman.jpg" style={{"margin-bottom":"20px",height: "193px",width: "100%"}}/>
+                    <img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/soundarya-manjappa-chairman_wiehap.jpg" style={{"margin-bottom":"20px",height: "193px",width: "100%"}}/>
                     
                     <p style={{"text-align":"justify"}}><i className="fa fa-quote-left"></i>&nbsp;<strong>Desire</strong> is the key to motivation; but it is stern determination &amp; commitment to an unrelenting pursuit of your goal – a commitment to excellence  that will enable you to attain the success you seek “ . I am tremendously delighted to witness the colourful strides we could accomplish during the last 23 years of our proud march towards <strong><u>‘Destination Excellence’</u></strong> I wish that our vision statement involve and evolve becomes true in the days to come. </p>
                     <p className="people">
@@ -45,14 +86,7 @@ export default class Event extends Component{
         <div className="col-md-4">
             <section className="links">
                 
-                <h1 className="section-heading text-highlight"><span className="line">Quick Links</span></h1>
-                <div className="section-content">
-                    <p><a href="#"><i className="fa fa-caret-right"></i>E-learning Portal</a></p>
-                    <p><a href="#"><i className="fa fa-caret-right"></i>Gallery</a></p>
-                    <p><a href="#"><i className="fa fa-caret-right"></i>Job Vacancies</a></p>
-                    <p><a href="#"><i className="fa fa-caret-right"></i>Contact</a></p>
-                </div>
-                
+               
                 <div className="widget facebooklikebox-2 widget_FacebookLikeBox" style={{"padding-top": "0px"}}>
                 <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
                 <span style={{"vertical-align": "bottom", width: "100%",height: "460px"}}>
