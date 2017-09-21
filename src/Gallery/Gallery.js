@@ -29,7 +29,7 @@ export default class Gallery extends Component{
         })
     }
     getalbums(id){
-              axios.get(`http://198.12.154.44:3333//School/Image/${id}`)
+              axios.get(`http://198.12.154.44:3333/School/Image/${id}`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
