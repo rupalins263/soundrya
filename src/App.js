@@ -41,6 +41,10 @@ class App extends Component {
                       <Route exact path="/Methedology" component={Methodology}/>
                       <Route exact path="/TeachingStaff" component={TeachingStaff}/>
                         <Route exact path="/Gallery" component={Gallery}/>
+                          <Route exact path="/Gallery" component={Gallery}/>
+                            <Route exact path="/Gallery/Nursery" component={Gallery}/>
+                              <Route exact path="/Gallery/Primary" component={Gallery}/>
+                                <Route exact path="/Gallery/HighSchool" component={Gallery}/>
                           <Route exact path="/Activities" component={Activities}/>
                       
        </Switch>
