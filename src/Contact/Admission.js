@@ -5,7 +5,7 @@ export default class Admission extends Component{
     render(){
         return(
     
-        <div className="content container">
+        <div className="content container" style={{marginTop:"30px"}}>
                 <div className="page-wrapper">
                     <header className="page-heading clearfix">
                         <h1 className="heading-title pull-left">Admission</h1>
@@ -20,16 +20,34 @@ export default class Admission extends Component{
                     <div className="page-content">
                     <div className="row page-row">
                         <article className="welcome col-md-8 col-sm-7">  
-                            <p>Students are admitted to the Nursery and other classNamees if there are vacancies. The registration forms should be duly filled by the parents. Both the parents must present themselves on the day prescribed for interview. The following conditions are to be fulfilled and documents must be enclosed along with the registration form.</p>
+                            <p>We Welcome all parents who support our vision and mission in imparting quality education to their wards</p>
 
-                            <h3 className="title sub-heading">Admission Procedure</h3>
+                            <h3 className="title sub-heading">New Admission Guidelines</h3>
                             	<ul className="custom-list-style">
-	                                <li><span style={{"color": "#4545A2"}}>Step-1 :</span> The child should be above 3 years of age on June 1, 2017</li>
-	                                <li><span  style={{"color": "#4545A2"}}>Step-2 :</span> Only parents/legal guardian (not relatives) must accompany the child for entrance test/ Interview.</li>
-	                                <li><span  style={{"color": "#4545A2"}}>Step-3 :</span> Original and photocopy of the birth certificate.</li>
-	                                <li><span style={{"color": "#4545A2"}}>Step-4 :</span> Photos will be taken at the school.</li>
-	                                <li><span style={{"color": "#4545A2"}}>Step-5 :</span> Cast certificate for SC/ST in original and photocopy.</li>
-                            	</ul> 
+	                                <li> Parents / Guardians who seek admission for their wards in the different wings of SET must fulfill all the desired conditions and possess all relevant documents to support his / her statements such as age, address proof … etc</li>
+	                                <li>Aadhar card for all who seek admission is mandatory.</li>
+	                                <li>You must give a valid e-mail ID / Phone no for correspondence</li>
+	                                <li>You ought to stick on to ‘3’ important dates<br/>
+                                    <ul style={{listStyleType:"upper-roman"}}>
+                                        <li><b>Issue of application form</b> – Between Nov. 17 – Dec. 17</li>
+                                        <li> <b>Submission Date</b>: </li>
+                                        <li> <b>Process of admission</b>: Application will be screened and short listed candidates shall be called for test / interview in the month of January.</li>
+                                    </ul>
+
+
+
+
+                                    </li>
+	                                <li>Admission Process :<br/>
+                                                    Kindergarten / Montessori<br/>
+                                                    Prescribed age : (as on 30th May of the academic year)<br/>
+                                                    Pre – Nursery : 2yrs 5 Months<br/>
+                                                    L.K.G. : 3yrs 5 Months<br/>
+                                                    U.K.G. : 4yrs 5 Months<br/></li>
+                                    <li>Pre-Primary, Upper Primary and High School sessions will have an admission test based on General aptitude; those who pass the test creditably are eligible for admission to different classes.</li>
+                                    <li>Those who belong to SC / ST category must possess the caste certificate</li>
+                                    <li>An identification test (verbal) is conducted and those who qualify the test can find their names in the merit list which will be published o0n the School notice board as well as School Website.</li>
+                                </ul> 
                         </article>
                         <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                           	
                             <section className="widget has-divider">
