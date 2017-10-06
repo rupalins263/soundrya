@@ -42,13 +42,13 @@ export default class Media extends Component{
             </div> 
         </article>
 </section>
-                        <section className="widget">
-                            <h3 className="title">Our Institutions</h3>
-                            <p><a href="#">Soundarya School</a></p>
-                            <p><a href="#">Soundarya Composite PU College</a></p>
-                            <p><a href="#">Soundarya Institute of Management &amp; Science</a></p>
-                            <p><a href="#">Soundarya Central School (CBSE)</a></p>
-                        </section>   
+                     <section className="widget">
+                        <h3 className="title">Contact</h3>
+                        <p><b>Soundarya School</b><br/> Havanoor extension,<br/> Nagasandra post ,<br/> Bangalore-560073</p>
+                        <p className="tel"><i className="fa fa-phone"></i>Tel: 080-28391789</p>
+                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></p>
+                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundarya.edu.trust@gmail.com">soundarya.edu.trust@gmail.com</a></p>
+                    </section>
 
                     </aside>
                 </div>
