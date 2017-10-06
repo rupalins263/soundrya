@@ -8,6 +8,7 @@ import Carrier from './Contact/Carrier';
 import Alumni from './Contact/Alumni';
 import Media from './Contact/Media';
 import Admission from './Contact/Admission';
+import NewsSingle from './Contact/NewsSingle';
 import Management from './About/Management';
 import Mission from './About/Mission';
 import News from './About/News';
@@ -16,7 +17,7 @@ import Assesment from './Academics/Assesment';
 import Methodology from './Academics/Methedology';
 import Activities from './Academics/Activities';
 import TeachingStaff from './Academics/TeachingStaff';
-
+import Privacy from './Contact/Privacy';
 import Gallery from './Gallery/Gallery';
 import './App.css';
 
@@ -46,6 +47,9 @@ class App extends Component {
                               <Route exact path="/Gallery/Primary" component={Gallery}/>
                                 <Route exact path="/Gallery/HighSchool" component={Gallery}/>
                           <Route exact path="/Activities" component={Activities}/>
+                            <Route  path="/NewsSingle" component={NewsSingle}/>
+                            <Route  path="/Privacy" component={Privacy}/>
+                             
                       
        </Switch>
        <Footer/>

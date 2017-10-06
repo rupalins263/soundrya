@@ -101,7 +101,7 @@ export  default class Home extends Component{
         </div>  
         <div className="col-md-3">
             <div style={{marginTop:"60px","backgroundColor":"#1B68AB",width:"150px","font-family": 'Open Sans',color:"#fff"}}>
-            <a className="btn btn-cta" href="#"><i className="fa fa-play-circle"></i>Read More</a> 
+            <a className="btn btn-cta" href="/Mission"><i className="fa fa-play-circle"></i>Read More</a> 
             </div> 
         </div>
     </section>

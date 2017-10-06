@@ -11,7 +11,7 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>About</h3>
                                         <ul>
-                                            <li><a href="/"><i className="fa fa-caret-right"></i>About School</a></li>
+                                            <li><a href="/Mission"><i className="fa fa-caret-right"></i>About School</a></li>
                                             <li><a href="/Management"><i className="fa fa-caret-right"></i>Management</a></li>
                                             <li><a href="/Carrier"><i className="fa fa-caret-right"></i>Careers</a></li>
                                             <li><a href="/Admission"><i className="fa fa-caret-right"></i>Admissions</a></li>
@@ -37,7 +37,7 @@ export default class Footer extends Component{
                                             <li><a href="/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
                                             <li><a href="/TeachingStaff"><i className="fa fa-caret-right"></i>Teaching Staff</a></li>
                                             <li><a href="/Media"><i className="fa fa-caret-right"></i>Press Media</a></li>
-                                            <li><a href="/"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
+                                            <li><a href="/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
                                             
                                         </ul>
                                     </div>
@@ -53,7 +53,7 @@ export default class Footer extends Component{
                                                         <i style={{"visibility": "hidden"}} className="fa fa-map-marker pull-left"></i>  Havanoor extension,<br/>
                                                         <i className="fa fa-map-marker pull-left" style={{"visibility": "hidden"}}></i> Nagasandra post, Bangalore-560 073<br/>
                                                         <i className="fa fa-phone"></i>080-28391789<br/>
-                                                        <i className="fa fa-envelope"></i><a href="#">soundaryaschool@gmail.com</a>
+                                                        <i className="fa fa-envelope"></i><a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a>
                                                     </span>    
                                                 </span>
                                             </p>
@@ -73,9 +73,9 @@ export default class Footer extends Component{
                         <div className="bottom-bar">
                             <div className="container">
                                 <div className="row">
-                                    <small className="copyright col-md-6 col-sm-12 col-xs-12">Copyright @ 2015. All Rights Reserved.</small>
-                                 
-                                </div>
+                                    <small className="copyright col-md-6 col-sm-12 col-xs-12">Copyright @ 2017. All Rights Reserved.</small>
+                                    <small className="copyright col-md-6 col-sm-12 col-xs-12" style={{textAlign:"right"}}>Designed By Zepnosys technologies.</small>
+                                  </div>
                             </div>
                         </div>
                         

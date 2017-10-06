@@ -35,7 +35,8 @@ export default class Mission extends Component{
                                                         <div><span style={{"box-sizing": "border-box","border-style":"initial","border-color":"initial","border-image":"initial","outline-color":"initial","outline-style": "initial", "line-height": "18.5714px"," background-image": "initial","background-size":"initial","background-origin":"initial"," background-clip": "initial", "background-position": "initial","background-repeat":" initial"}}><b>&nbsp; &nbsp; B+ &nbsp; &nbsp;33 Students</b></span></div>
                                                         <div><span style={{"box-sizing": "border-box","border-style":"initial","border-color":"initial","border-image":"initial","outline-color":"initial","outline-style": "initial", "line-height": "18.5714px"," background-image": "initial","background-size":"initial","background-origin":"initial"," background-clip": "initial", "background-position": "initial","background-repeat":" initial"}}><b><br/></b></span></div>
                                                         <div><span style={{"box-sizing": "border-box","border-style":"initial","border-color":"initial","border-image":"initial","outline-color":"initial","outline-style": "initial", "line-height": "18.5714px"," background-image": "initial","background-size":"initial","background-origin":"initial"," background-clip": "initial", "background-position": "initial","background-repeat":" initial"}}><b><img src="https://res.cloudinary.com/dvl9i5pry/image/upload/v1505984961/toppers-17_ips79k.jpg"/><br/></b></span></div><p></p>
-                                                        <a id="read" onClick={()=>{document.getElementById("read").style.display="none"}} className="btn btn-theme read-more" >Read more<i className="fa fa-chevron-right"></i></a>
+                                                        {/*<a id="read" onClick={()=>{document.getElementById("read").style.display="none"}} className="btn btn-theme read-more" >Read more<i className="fa fa-chevron-right"></i></a>
+                                                  */}
                                                     </div>
                                                 </article>
 
@@ -46,7 +47,7 @@ export default class Mission extends Component{
                                             <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">  
                                                 
 
-                                                         <section className="widget has-divider">
+                                                         {/*<section className="widget has-divider">
                                                                 <h3 className="title">Latest Events</h3>
                                                                     <article className="events-item row page-row">                                    
                                                                         <div className="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
@@ -60,7 +61,7 @@ export default class Mission extends Component{
                                                                             <p className="time text-muted">Soundarya School</p>                  
                                                                         </div> 
                                                                     </article>
-                                                         </section>                                         
+                                                         </section>                                         */}
                                             </aside>
                                         </div>
                                     </div>

@@ -24,7 +24,7 @@ class Nav extends Component{
               </div>
                 <div className="header-main container">
                 <h1 className="logo col-md-6 col-sm-6">
-                    <a href="index.html" style={{"text-decoration": "none"}}>
+                    <a href="/" style={{"text-decoration": "none"}}>
                         <img id="logo" src="http://res.cloudinary.com/dzrelou7q/image/upload/v1503155295/Logo_dts0t4.jpg" alt="Logo"/>
                         <h1 style={{"display":"inline-block","margin-top":"6%","font-size":"40px"}}>Soundarya School</h1>
                     </a>
@@ -39,7 +39,7 @@ class Nav extends Component{
                     <br/>
                     <div className="contact pull-right">
                         <span className="phone txt-phn"><i className="fa fa-phone espan"></i>Call us today 080-28391789</span> 
-                        <span className="email txt-phn"><i className="fa fa-envelope espan"></i><a href="#">soundaryaschool@gmail.com</a></span>
+                        <span className="email txt-phn"><i className="fa fa-envelope espan"></i><a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></span>
 
                     </div>
                 </div>

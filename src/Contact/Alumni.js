@@ -76,28 +76,28 @@ export default class Alumni extends Component{
                 
                     <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">
                         
-
-<section className="widget has-divider">
-    <h3 className="title">Latest Events</h3>
-        <article className="events-item row page-row">                                    
-            <div className="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
-                <p className="date-label">                          
-                    <span className="month">Apr</span>
-                    <span className="date-number"> 01</span>
-                </p>
-            </div>
-            <div className="details col-md-9 col-sm-8 col-xs-8">
-                <h5 className="title">Summer Camp 2017</h5>  
-                <p className="time text-muted">Soundarya School</p>                  
-            </div> 
-        </article>
-</section>
+{/*
+                            <section className="widget has-divider">
+                                <h3 className="title">Latest Events</h3>
+                                    <article className="events-item row page-row">                                    
+                                        <div className="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                                            <p className="date-label">                          
+                                                <span className="month">Apr</span>
+                                                <span className="date-number"> 01</span>
+                                            </p>
+                                        </div>
+                                        <div className="details col-md-9 col-sm-8 col-xs-8">
+                                            <h5 className="title">Summer Camp 2017</h5>  
+                                            <p className="time text-muted">Soundarya School</p>                  
+                                        </div> 
+                                    </article>
+                            </section>*/}
                         <section className="widget">
                             <h3 className="title">Our Institutions</h3>
-                            <p><a href="#">Soundarya School</a></p>
-                            <p><a href="#">Soundarya Composite PU College</a></p>
-                            <p><a href="#">Soundarya Institute of Management &amp; Science</a></p>
-                            <p><a href="#">Soundarya Central School (CBSE)</a></p>
+                            <p><a href="/">Soundarya School</a></p>
+                            <p><a href="http://puc.soundaryainstitutions.in">Soundarya Composite PU College</a></p>
+                            <p><a href="http://sims.soundaryainstitutions.in/">Soundarya Institute of Management &amp; Science</a></p>
+                            <p><a href="http://central.soundaryainstitutions.in">Soundarya Central School (CBSE)</a></p>
                         </section>   
 
                     </aside>

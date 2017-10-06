@@ -142,3 +142,6 @@ div.tab button.active {
     border: 1px solid #ccc;
     border-top: none;
 }
+ul, ol {
+    list-style: none;
+}

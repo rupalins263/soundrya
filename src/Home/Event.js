@@ -30,6 +30,7 @@ export default class Event extends Component{
                 if(index<2){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
+                     var href=`/NewsSingle?id=${item.eventid}`;
                     return(
                         <div className="event-item">
                                         <p className="date-label">
@@ -38,7 +39,7 @@ export default class Event extends Component{
                                         </p>
                                         <div className="details">
                                             <h2 className="title">
-                                                <a href="">{item.eventname}</a>
+                                                <a href={href}>{item.eventname}</a>
                                             </h2>
                                             <p className="location"><i className="fa fa-map-marker"></i>Soundarya School</p>                            
                                         </div>
@@ -65,7 +66,7 @@ export default class Event extends Component{
                 <h1 className="line">Events</h1>
                 <div className="section-content">
                               {events}
-                    <a className="read-more" href="#">All events<i className="fa fa-chevron-right"></i></a>
+                    {/*<a className="read-more" href="/News">All events<i className="fa fa-chevron-right"></i></a>*/}
                 </div>
             </section>
         </div>
