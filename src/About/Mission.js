@@ -30,11 +30,11 @@ export default class Mission extends Component{
 
                     </ul>
                     
-                    <h3 className="title" style={{"margin-top":"30px"}} id="vision">Vision</h3>
+                    <h3 className="title" style={{"margin-top":"30px"}} id="#/Mission#vision">Vision</h3>
                    <blockquote className="custom-quote">
                         <p><i className="fa fa-quote-left"></i>To empower contemporary education through holistic approach.</p>
                     </blockquote>
-                   <h3 className="title" style={{"margin-top":"30px"}} id="mission">Mission</h3>
+                   <h3 className="title" style={{"margin-top":"30px"}} id="#/Mission#mission">Mission</h3>
                    <blockquote className="custom-quote">
                         <p><i className="fa fa-quote-left"></i>To mould young ones in our care in to role models who excel in academics with human values and social concern.</p>
                     </blockquote>

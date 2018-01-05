@@ -20,7 +20,7 @@ export default class NewsSingle extends Component{
         {
             var _this=this;
              console.log(window.location.search.slice(-1))
-           axios.get(`http://198.12.154.44:3333/School/Events`)
+           axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/Events`)
              .then((res)=>{
                     console.log(res)
                         var current={};
@@ -57,7 +57,7 @@ export default class NewsSingle extends Component{
                         <ul className="breadcrumbs-list">
                             <li className="breadcrumbs-label">You are here:</li>
                             <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
-                            <li><a href="/News">News-Events</a><i className="fa fa-angle-right"></i></li>
+                            <li><a href="/#/News">News-Events</a><i className="fa fa-angle-right"></i></li>
                             <li className="current">Events</li>
                         </ul>
                     </div>

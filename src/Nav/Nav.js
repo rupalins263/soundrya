@@ -60,45 +60,45 @@ class Nav extends Component{
          <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT SOUNDARYANS<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/Management">MANAGEMENT</a></li>
-            <li><a href="/Mission">MISSION </a></li>
-            <li><a href="/Mission">VISION</a></li>
+            <li><a href="/#/Management">MANAGEMENT</a></li>
+            <li><a href="/#/Mission">MISSION </a></li>
+            <li><a href="/#/Mission">VISION</a></li>
            
           </ul>
         </li>
-         <li><a href="/Admission">ADMISSIONS</a></li>
+         <li><a href="/#/Admission">ADMISSIONS</a></li>
         <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACADEMICS<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/Curriculum">CURRICULUM</a></li>
-            <li><a href="/Assesment">ASSESSMENT PLAN </a></li>
-            <li><a href="/Methedology">METHEDOLOGY</a></li>
-            <li><a href="/Activities">ACTIVITIES</a></li>
-             <li><a href="/TeachingStaff">TEACHING STAFF</a></li>
+            <li><a href="/#/Curriculum">CURRICULUM</a></li>
+            <li><a href="/#/Assesment">ASSESSMENT PLAN </a></li>
+            <li><a href="/#/Methedology">METHEDOLOGY</a></li>
+            <li><a href="/#/Activities">ACTIVITIES</a></li>
+             <li><a href="/#/TeachingStaff">TEACHING STAFF</a></li>
           </ul>
         </li>
           <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EVENT DIARY<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/News">NURSERY</a></li>
-            <li><a href="/News">PRIMARY SCHOOL </a></li>
-            <li><a href="/News">HIGH SCHOOL</a></li>
+            <li><a href="/#/News">NURSERY</a></li>
+            <li><a href="/#/News">PRIMARY SCHOOL </a></li>
+            <li><a href="/#/News">HIGH SCHOOL</a></li>
            
           </ul>
         </li>
-        <li><a href="/Media">MEDIA</a></li>
+        <li><a href="/#/Media">MEDIA</a></li>
           <li className="dropdown">
-          <a href="/Gallery" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY<span className="caret"></span></a>
+          <a href="/#/Gallery" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/Gallery/Nursery">NURSERY</a></li>
-            <li><a href="/Gallery/Primary">PRIMARY SCHOOL </a></li>
-            <li><a href="/Gallery/HighSchool">HIGH SCHOOL</a></li>
+            <li><a href="/#/Gallery/Nursery">NURSERY</a></li>
+            <li><a href="/#/Gallery/Primary">PRIMARY SCHOOL </a></li>
+            <li><a href="/#/Gallery/HighSchool">HIGH SCHOOL</a></li>
            
           </ul>
         </li>
-         <li><a href="/Alumni">ALUMINI</a></li>
-         <li><a href="/Carrier">CARRIER</a></li>
-         <li><a href="/ContactUs">CONTACT US</a></li>
+         <li><a href="/#/Alumni">ALUMINI</a></li>
+         <li><a href="/#/Carrier">CARRIER</a></li>
+         <li><a href="/#/ContactUs">CONTACT US</a></li>
       
       </ul>
     </div>

@@ -31,9 +31,9 @@ export default class Curriculum extends Component{
                                         <section className="widget has-divider">
                                             <h3 className="title">Related Links</h3>
                                             <ul className="job-list custom-list-style">
-                                                   <li><i className="fa fa-caret-right"></i><a href="/Curriculum">Curriculum</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/Methedology">Methodology</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/TeachingStaff">Teaching Staff</a></li>
+                                                   <li><i className="fa fa-caret-right"></i><a href="/#/Curriculum">Curriculum</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/Methedology">Methodology</a></li>
+                                        <li><i className="fa fa-caret-right"></i><a href="/#/TeachingStaff">Teaching Staff</a></li>
                                      </ul>
                                             
                                         </section>
@@ -42,8 +42,8 @@ export default class Curriculum extends Component{
                                         <h3 className="title">Contact</h3>
                                         <p><b>Soundarya School</b><br/> Havanoor extension,<br/> Nagasandra post ,<br/> Bangalore-560073</p>
                                         <p className="tel"><i className="fa fa-phone"></i>Tel: 080-28391789</p>
-                                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="#">soundaryaschool@gmail.com</a></p>
-                                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="#">soundarya.edu.trust@gmail.com</a></p>
+                                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></p>
+                                        <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundarya.edu.trust@gmail.com">soundarya.edu.trust@gmail.com</a></p>
                                     </section>
                                 </aside>
                              </div>

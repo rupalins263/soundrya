@@ -11,7 +11,7 @@ export default class TeachingStaff  extends Component{
                     <div className="breadcrumbs pull-right">
                         <ul className="breadcrumbs-list">
                             <li className="breadcrumbs-label">You are here:</li>
-                            <li><a href="index.html">Home</a><i className="fa fa-angle-right"></i></li>
+                            <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
                             <li className="current">Academics</li>
                         </ul>
                     </div>
@@ -28,9 +28,9 @@ export default class TeachingStaff  extends Component{
                             <section className="widget has-divider">
                                 <h3 className="title">Related Links</h3>
                                 <ul className="job-list custom-list-style">
-                                    <li><i className="fa fa-caret-right"></i><a href="/Curriculum">Curriculum</a></li>
-                                    <li><i className="fa fa-caret-right"></i><a href="/Assesment">Assesment Plan </a></li>
-                                    <li><i className="fa fa-caret-right"></i><a href="/Methedology">Methodology</a></li>
+                                    <li><i className="fa fa-caret-right"></i><a href="/#/Curriculum">Curriculum</a></li>
+                                    <li><i className="fa fa-caret-right"></i><a href="/#/Assesment">Assesment Plan </a></li>
+                                    <li><i className="fa fa-caret-right"></i><a href="/#/Methedology">Methodology</a></li>
                                 </ul>
                             </section>
                             
@@ -38,8 +38,8 @@ export default class TeachingStaff  extends Component{
                                     <h3 className="title">Contact</h3>
                                     <p><b>Soundarya School</b><br/> Havanoor extension,<br/> Nagasandra post ,<br/> Bangalore-560073</p>
                                     <p className="tel"><i className="fa fa-phone"></i>Tel: 080-28391789</p>
-                                    <p className="email"><i className="fa fa-envelope"></i>Email: <a href="#">soundaryaschool@gmail.com</a></p>
-                                    <p className="email"><i className="fa fa-envelope"></i>Email: <a href="#">soundarya.edu.trust@gmail.com</a></p>
+                                    <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></p>
+                                    <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:soundarya.edu.trust@gmail.com">soundarya.edu.trust@gmail.com</a></p>
                                 </section>
                         </aside>
                     </div>

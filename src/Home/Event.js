@@ -9,7 +9,7 @@ export default class Event extends Component{
         }
     }
     componentWillMount(){
-           axios.get(`http://198.12.154.44:3333/School/Events`)
+           axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/Events`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -30,7 +30,7 @@ export default class Event extends Component{
                 if(index<2){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
-                     var href=`/NewsSingle?id=${item.eventid}`;
+                     var href=`/#/NewsSingle?id=${item.eventid}`;
                     return(
                         <div className="event-item">
                                         <p className="date-label">

@@ -49,8 +49,9 @@ class App extends Component {
                           <Route exact path="/Activities" component={Activities}/>
                             <Route  path="/NewsSingle" component={NewsSingle}/>
                             <Route  path="/Privacy" component={Privacy}/>
+                            <Route   path="/Admission/#/" component={Admission}/>
                              <Route   path="/" component={HomeIndex}/>
-                             
+                            
                       
        </Switch>
        <Footer/>

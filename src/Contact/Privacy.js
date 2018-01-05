@@ -11,7 +11,7 @@ export default class privacy extends Component{
                                     <div className="breadcrumbs pull-right">
                                         <ul className="breadcrumbs-list">
                                             <li className="breadcrumbs-label">You are here:</li>
-                                            <li><a href="index.html">Home</a><i className="fa fa-angle-right"></i></li>
+                                            <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
                                             <li className="current">Privacy Policy</li>
                                         </ul>
                                     </div>
@@ -27,9 +27,9 @@ export default class privacy extends Component{
                                             <section className="widget has-divider">
                                                 <h3 className="title">Related Links</h3>
                                                 <ul className="job-list custom-list-style">
-                                                      <li><a href="/Activities"><i className="fa fa-caret-right"></i>Activities</a></li>
-                                                        <li><a href="/Curriculum"><i className="fa fa-caret-right"></i>curriculum</a></li>
-                                                        <li><a href="/Assesment"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
+                                                      <li><a href="/#/Activities"><i className="fa fa-caret-right"></i>Activities</a></li>
+                                                        <li><a href="/#/Curriculum"><i className="fa fa-caret-right"></i>curriculum</a></li>
+                                                        <li><a href="/#/Assesment"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
                                                 
                                                 </ul>
                                                 

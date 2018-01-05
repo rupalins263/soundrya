@@ -15,7 +15,7 @@ export default class Gallery extends Component{
        this.goBack=this.goBack.bind(this);
     }
     componentDidMount(){
-        axios.get("http://198.12.154.44:3333/School/Albums")
+        axios.get("http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/Albums")
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -30,7 +30,7 @@ export default class Gallery extends Component{
         })
     }
     getalbums(id){
-              axios.get(`http://198.12.154.44:3333/School/Image/${id}`)
+              axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/Image/${id}`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
@@ -165,7 +165,7 @@ export default class Gallery extends Component{
                     <div className="breadcrumbs pull-right">
                         <ul className="breadcrumbs-list">
                             <li className="breadcrumbs-label">You are here:</li>
-                            <li><a href="index.html">Home</a><i className="fa fa-angle-right"></i></li>
+                            <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
                             <li className="current">Gallery</li>
                         </ul>
                     </div>

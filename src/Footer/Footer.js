@@ -11,10 +11,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>About</h3>
                                         <ul>
-                                            <li><a href="/Mission"><i className="fa fa-caret-right"></i>About School</a></li>
-                                            <li><a href="/Management"><i className="fa fa-caret-right"></i>Management</a></li>
-                                            <li><a href="/Carrier"><i className="fa fa-caret-right"></i>Careers</a></li>
-                                            <li><a href="/Admission"><i className="fa fa-caret-right"></i>Admissions</a></li>
+                                            <li><a href="/#/Mission"><i className="fa fa-caret-right"></i>About School</a></li>
+                                            <li><a href="/#/Management"><i className="fa fa-caret-right"></i>Management</a></li>
+                                            <li><a href="/#/Carrier"><i className="fa fa-caret-right"></i>Careers</a></li>
+                                            <li><a href="/#/Admission"><i className="fa fa-caret-right"></i>Admissions</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -22,10 +22,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>More Links</h3>
                                         <ul>
-                                            <li><a href="/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
-                                            <li><a href="/Activities"><i className="fa fa-caret-right"></i>Activities</a></li>
-                                            <li><a href="/Curriculum"><i className="fa fa-caret-right"></i>curriculum</a></li>
-                                            <li><a href="/Assesment"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
+                                            <li><a href="/#/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
+                                            <li><a href="/#/Activities"><i className="fa fa-caret-right"></i>Activities</a></li>
+                                            <li><a href="/#/Curriculum"><i className="fa fa-caret-right"></i>curriculum</a></li>
+                                            <li><a href="/#/Assesment"><i className="fa fa-caret-right"></i>Assesment Plan</a></li>
                                             
                                         </ul>
                                     </div>
@@ -34,10 +34,10 @@ export default class Footer extends Component{
                                     <div className="footer-col-inner">
                                         <h3>&nbsp;</h3>
                                         <ul>
-                                            <li><a href="/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
-                                            <li><a href="/TeachingStaff"><i className="fa fa-caret-right"></i>Teaching Staff</a></li>
-                                            <li><a href="/Media"><i className="fa fa-caret-right"></i>Press Media</a></li>
-                                            <li><a href="/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
+                                            <li><a href="/#/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
+                                            <li><a href="/#/TeachingStaff"><i className="fa fa-caret-right"></i>Teaching Staff</a></li>
+                                            <li><a href="/#/Media"><i className="fa fa-caret-right"></i>Press Media</a></li>
+                                            <li><a href="/#/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
                                             
                                         </ul>
                                     </div>

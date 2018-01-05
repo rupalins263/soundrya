@@ -11,7 +11,7 @@ export default class ContactUs extends Component{
          var email= document.getElementById("email");
 
          var message= document.getElementById("message");
-          axios.post('http://198.12.154.44:3333/School/ContactUs', {
+          axios.post('http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/ContactUs', {
                 "name":name.value,
                 "email":email.value,
                 "number":phone.value,

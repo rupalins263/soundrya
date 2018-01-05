@@ -11,7 +11,7 @@ export  default class Home extends Component{
         }
     }
     componentWillMount(){
-         axios.get(`http://198.12.154.44:3333/School/Image/1`)
+         axios.get(`http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/School/Image/1`)
              .then((res)=>{
                     console.log(res)
                     this.setState({
