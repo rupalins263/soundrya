@@ -97,7 +97,7 @@ class Nav extends Component{
           </ul>
         </li>
          <li><a href="/#/Alumni">ALUMINI</a></li>
-         <li><a href="/#/Carrier">CARRIER</a></li>
+         <li><a href="/#/Carrier">CAREERS</a></li>
          <li><a href="/#/ContactUs">CONTACT US</a></li>
       
       </ul>
