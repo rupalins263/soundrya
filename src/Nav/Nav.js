@@ -14,7 +14,7 @@ class Nav extends Component{
           <div style={{"marginBottom":"5px"}}>
           <div className="header">
             <div className="headerr">
-               <div className="container " style={{"text-align": "right"}}>              
+               <div className="container  " style={{"text-align": "right"}}>              
                   
                     <div className="other-branch"><a href="http://central.soundaryainstitutions.in">SOUNDARYA CENTRAL SCHOOL</a></div>
                     <div className="other-branch"><a href="http://puc.soundaryainstitutions.in">SOUNDARYA PU COLLEGE</a></div>     
@@ -54,15 +54,15 @@ class Nav extends Component{
 
    
     <div className="collapse navbar-collapse nav-a" style={{paddingTop:"5px"}} id="bs-example-navbar-collapse-1">
-      <ul className="nav navbar-nav">
+      <ul className="nav navbar-nav ">
            <li><a href="/" className="navf"  id="HOME">HOME</a></li>
           
          <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT SOUNDARYANS<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/#/Management">MANAGEMENT</a></li>
-            <li><a href="/#/Mission">MISSION </a></li>
-            <li><a href="/#/Mission">VISION</a></li>
+            {/* <li><a href="/#/Management">MANAGEMENT</a></li> */}
+            <li><a href="/#/Mission">MISSION &amp; VISION</a></li>
+            <li><a href="/#/Birth&Metamorphosis">Birth &amp; Metamorphosis</a></li>
            
           </ul>
         </li>
@@ -97,7 +97,7 @@ class Nav extends Component{
           </ul>
         </li>
          <li><a href="/#/Alumni">ALUMINI</a></li>
-         <li><a href="/#/Carrier">CARRIER</a></li>
+         <li><a href="/#/Carrier">CAREERS</a></li>
          <li><a href="/#/ContactUs">CONTACT US</a></li>
       
       </ul>

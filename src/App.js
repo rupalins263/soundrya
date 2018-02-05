@@ -11,6 +11,7 @@ import Admission from './Contact/Admission';
 import NewsSingle from './Contact/NewsSingle';
 import Management from './About/Management';
 import Mission from './About/Mission';
+import Birth from './About/Birth';
 import News from './About/News';
 import Curriculum from './Academics/Curriculum';
 import Assesment from './Academics/Assesment';
@@ -36,6 +37,7 @@ class App extends Component {
                 <Route exact path="/Admission" component={Admission}/>
                 <Route exact path="/Management" component={Management}/>
                 <Route exact path="/Mission" component={Mission}/>
+                <Route exact path="/Birth&Metamorphosis" component={Birth}/>
                   <Route exact path="/News" component={News}/>
                   <Route exact path="/Curriculum" component={Curriculum}/>
                   <Route exact path="/Assesment" component={Assesment}/>
