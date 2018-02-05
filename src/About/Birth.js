@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import '../Contact/Contact.css';
 
-export default class Mission extends Component{
+export default class Birth extends Component{
     render(){
         return(
                 <div className="content container">
@@ -14,10 +14,12 @@ export default class Mission extends Component{
                 
                     <div id="exTab2" className="container" style={{padding:0,marginBottom:50,marginTop:10}}>	
                             <ul className="nav nav-tabs"  style={{"background-color":"rgb(11, 22, 31)",color:"white",fontSize:20,}}>
+                                         <li className="active"><a href="#1" data-toggle="tab">Birth & metamorphosis</a>
+                                        </li>
                                          <li><a href="#4" data-toggle="tab">About Soundarya</a>
                                         </li>
-                                        <li className="active">
-                                            <a  href="#1" data-toggle="tab">Mission</a>
+                                        <li >
+                                            <a  href="#5" data-toggle="tab">Mission</a>
                                         </li>
                                         <li><a href="#2" data-toggle="tab">Vision</a>
                                         </li>
@@ -33,7 +35,7 @@ export default class Mission extends Component{
                <div className="page-content">
                <div className="row page-row">
                <div className="tab-content ">
-                                                <div className="tab-pane active" id="1">
+                                                <div className="tab-pane " id="5">
                                                     <article className="welcome col-md-8 col-sm-7">
                                                      <h3 className="title" style={{"margin-top":"30px"}} id="#/Mission#mission">Mission</h3>
                                                      <blockquote className="custom-quote">
@@ -74,24 +76,25 @@ export default class Mission extends Component{
                                                         
                                                             </article>
                                             </div>
-                                            <div className="tab-pane" id="5">
+                                            <div className="tab-pane active" id="1">
                                                          <article className="welcome col-md-8 col-sm-7">                         
                                                                 <h3 className="title" >Birth & metamorphosis</h3>
                                                                 <p>Soundarya educational trust has been formed under the auspices of our hon’ble patron Sri. Manjappa in the year 1993,over the years it has grown by leaps & bounds giving birth to soundarya group of institution comprising 7 elite wings
                                                                 </p>
                                                                 <ul className="custom-list-style">
-                                                                    <li><a>Soundarya Nursery</a></li>
-                                                                    <li><a>Soundarya Primary & Senior Primary</a></li>
-                                                                    <li><a>Soundarya High School</a></li>
-                                                                    <li><a>Soundarya Composite Pre-University College</a></li>
-                                                                    <li><a>Soundarya Institute Of Management & Science</a></li>
+                                                                    <li><a href="http://central.soundaryainstitutions.in/#/PrePrimary">Soundarya Nursery</a></li>
+                                                                    <li><a href="http://central.soundaryainstitutions.in/#/Primary">Soundarya Primary & Senior Primary</a></li>
+                                                                    <li><a href="http://school.soundaryainstitutions.in/#/">Soundarya High School</a></li>
+                                                                    <li><a href="http://puc.soundaryainstitutions.in">Soundarya Composite Pre-University College</a></li>
+                                                                    <li><a href="http://sims.soundaryainstitutions.in/#/">Soundarya Institute Of Management & Science</a></li>
                                                                     <li><a href="http://central.soundaryainstitutions.in">Soundarya Central School</a></li>
-                                                                    <li><a>Soundarya College Of Law</a></li>
+                                                                    <li><a href="http://soundaryalawcollege.com/">Soundarya College Of Law</a></li>
                                                                    
                                                                 </ul>
                                                         
                                                             </article>
                                             </div>
+                                            
                                         </div>
                
                 <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    
